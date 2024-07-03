@@ -26,10 +26,3 @@ if __name__ == "__main__":
     height = [1,1]
     print(f"Maximum area for heights {height} is: {solution.maxArea(height)}")  # Output: 1
 
-    # Test case 3
-    height = [4,3,2,1,4]
-    print(f"Maximum area for heights {height} is: {solution.maxArea(height)}")  # Output: 16
-
-    # Test case 4
-    height = [1,2,1]
-    print(f"Maximum area for heights {height} is: {solution.maxArea(height)}")  # Output: 2
